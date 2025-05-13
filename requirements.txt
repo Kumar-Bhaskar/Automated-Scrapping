@@ -1,0 +1,6 @@
+selenium==4.31.0
+beautifulsoup4==4.13.4
+pandas==2.2.3
+webdriver-manager==4.0.2
+pdfplumber==0.11.5
+requests==2.31.0
