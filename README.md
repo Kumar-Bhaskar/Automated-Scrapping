@@ -23,19 +23,21 @@ This project automates the scraping of settlement calendar data from the BSE Ind
 - Other dependencies listed in `requirements.txt`
 
 ## Installation
-
-1. Clone the repository:
+1. Create Virtual Env
+   ``` python -m venv <virtual env name> 
+   ```
+2. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Kumar-Bhaskar/Automated-Scrapping
+   cd Automated-Scrapping
    ```
 
-2. Install the required packages:
+3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Ensure you have the necessary directories set up in the `settings.py` file:
+4. Ensure you have the necessary directories set up in the `settings.py` file:
    - `SETTLEMENT_DIR`: Directory for storing settlement CSV files.
    - `OUTPUT_DIR`: Directory for storing downloaded XLSX files.
    - `LOGS_DIR`: Directory for storing log files.
