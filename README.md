@@ -24,7 +24,8 @@ This project automates the scraping of settlement calendar data from the BSE Ind
 
 ## Installation
 1. Create Virtual Env
-   ``` python -m venv <virtual env name> 
+   ```bash
+    python -m venv <virtual env name> 
    ```
 2. Clone the repository:
    ```bash
